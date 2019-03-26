@@ -36,3 +36,83 @@
 [1, 5, 2, 6, 3, 7, 4]를 2번째부터 5번째까지 자른 후 정렬합니다. [2, 3, 5, 6]의 세 번째 숫자는 5입니다.
 [1, 5, 2, 6, 3, 7, 4]를 4번째부터 4번째까지 자른 후 정렬합니다. [6]의 첫 번째 숫자는 6입니다.
 [1, 5, 2, 6, 3, 7, 4]를 1번째부터 7번째까지 자릅니다. [1, 2, 3, 4, 5, 6, 7]의 세 번째 숫자는 3입니다.
+
+
+
+# 풀이
+
+## 첫 번째 풀이
+
+* **코드**
+
+  ```java
+  package kth_number;
+  
+  import java.util.Arrays;
+  
+  public class KthNumber {
+      public static int[] solution(int[] array, int[][] commands) {
+          int[] answer = new int[commands.length];
+          int[] sort;
+          int index = 0;
+          int commandsHeadIndex;
+          int commandsTailIndex;
+          int commandsCount;
+  
+          for (int i = 0; i < commands.length; i++) {
+              commandsHeadIndex = commands[i][0] - 1;
+              commandsTailIndex = commands[i][1] - 1;
+              commandsCount = commands[i][2] - 1;
+  
+              sort = new int[commandsTailIndex - commandsHeadIndex + 1];
+  
+              for (int j = commandsHeadIndex; j <= commandsTailIndex; j++) {
+                  sort[index] = array[j];
+                  index++;
+              }
+              index = 0;
+              sort = sortArray(sort);
+  
+              answer[i] = sort[commandsCount];
+          }
+  
+          return answer;
+      }
+  
+  	  // 버블 정렬을 사용
+      public static int[] sortArray(int[] array) {
+          int tmp;
+          for (int i = 0; i < array.length; i++) {
+              for (int j = i + 1; j < array.length; j++) {
+                  if (array[j-1] > array[j]) {
+                      tmp = array[j-1];
+                      array[j-1] = array[j];
+                      array[j] = tmp;
+                  }
+              }
+          }
+          return array;
+      }
+  
+      public static void main(String[] args) {
+          int[] array = new int[]{1, 5, 2, 6, 3, 7, 4};
+          int[][] commands = {
+                  {2, 5, 3},
+                  {4, 4, 1},
+                  {1, 7, 3}
+          };
+  
+          int[] answer = solution(array, commands);
+  
+          for(int i = 0; i < answer.length; i++) {
+              System.out.print(answer[i] + ",");
+          }
+      }
+  }
+  ```
+
+* **코드 채점 결과**
+
+  ![image](../../capture/kthNumberCapture1.png)
+
+  > 런타임이 길어서 실패..
