@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0140370c-ceb1-40d3-94f6-82b43fd05bad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/correct_parenthesis/correct_parenthesis.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matrix_multiplication/matrix_multiplication.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tower/Tower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="399">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,12 +111,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="representation_of_numbers" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="coding_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding_test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tower" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -147,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Tower">
+  <component name="RunManager" selected="Application.RepresentNumber">
     <configuration name="CorrectPar" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="correct_parenthesis.CorrectPar" />
       <module name="coding_test" />
@@ -200,6 +196,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RepresentNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="representation_of_numbers.RepresentNumber" />
+      <module name="coding_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="representation_of_numbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tower.Tower" />
       <module name="coding_test" />
@@ -215,6 +224,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RepresentNumber" />
         <item itemvalue="Application.Tower" />
         <item itemvalue="Application.IronStick" />
         <item itemvalue="Application.MatrixMul" />
@@ -241,15 +251,15 @@
       <workItem from="1553853521299" duration="217000" />
       <workItem from="1557448791182" duration="12653000" />
       <workItem from="1558780318448" duration="1240000" />
-      <workItem from="1559010907803" duration="4508000" />
+      <workItem from="1559010907803" duration="4950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28649000" />
+    <option name="totallyTimeSpent" value="29091000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="23" width="1280" height="1417" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18416801" />
@@ -349,8 +359,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tower/Tower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="399">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
