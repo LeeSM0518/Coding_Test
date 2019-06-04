@@ -9,7 +9,6 @@ public class IronStick2 {
         Stack<Character> stack = new Stack<>();
 
         for (int i = 0; i < arrangement.length(); i++) {
-
             if (arrangement.charAt(i) == ')' && arrangement.charAt(i-1) == '(') {
                 stack.pop();
                 answer += stack.size();
