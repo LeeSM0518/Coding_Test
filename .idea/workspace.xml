@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0140370c-ceb1-40d3-94f6-82b43fd05bad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding_test/printer/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coding_test/printer/Printer.class" afterDir="false" />
-    </list>
+    <list default="true" id="0140370c-ceb1-40d3-94f6-82b43fd05bad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,10 +15,11 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scpc/RollingBall.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="44" column="37" lean-forward="true" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+        <entry file="file://$PROJECT_DIR$/src/more_spicy/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -67,6 +65,8 @@
         <option value="$PROJECT_DIR$/src/printer/Printer.java" />
         <option value="$PROJECT_DIR$/src/scpc/upAndDown.java" />
         <option value="$PROJECT_DIR$/src/scpc/RollingBall.java" />
+        <option value="$PROJECT_DIR$/src/more_spicy/MoreSpicy.java" />
+        <option value="$PROJECT_DIR$/src/more_spicy/Heap.java" />
       </list>
     </option>
   </component>
@@ -93,6 +93,12 @@
               <item name="coding_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="coding_test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coding_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coding_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="more_spicy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -126,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RollingBall">
+  <component name="RunManager" selected="Application.MoreSpicy">
     <configuration name="CorrectPar" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="correct_parenthesis.CorrectPar" />
       <module name="coding_test" />
@@ -140,8 +146,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IronStick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iron_stick.IronStick" />
+    <configuration name="IronStick2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iron_stick.IronStick2" />
       <module name="coding_test" />
       <extension name="coverage">
         <pattern>
@@ -153,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IronStick2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iron_stick.IronStick2" />
+    <configuration name="MoreSpicy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="more_spicy.MoreSpicy" />
       <module name="coding_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iron_stick.*" />
+          <option name="PATTERN" value="more_spicy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoreSpicy" />
         <item itemvalue="Application.RollingBall" />
         <item itemvalue="Application.upAndDown" />
         <item itemvalue="Application.Printer" />
         <item itemvalue="Application.IronStick2" />
-        <item itemvalue="Application.IronStick" />
       </list>
     </recent_temporary>
   </component>
@@ -241,12 +247,12 @@
       <workItem from="1559761658466" duration="3617000" />
       <workItem from="1559821101062" duration="933000" />
       <workItem from="1560066167020" duration="17000" />
-      <workItem from="1561087222472" duration="14679000" />
+      <workItem from="1561087222472" duration="20396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71287000" />
+    <option name="totallyTimeSpent" value="77004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="23" width="960" height="1177" extended-state="0" />
@@ -272,7 +278,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32956687" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32768363" />
-      <window_info anchor="right" id="Key Promoter X" />
+      <window_info anchor="right" id="Key Promoter X" weight="0.32897604" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.38235295" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -440,8 +446,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scpc/RollingBall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="44" column="37" lean-forward="true" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+        <state relative-caret-position="181">
+          <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/more_spicy/MoreSpicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/more_spicy/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/more_spicy/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
