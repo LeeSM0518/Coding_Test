@@ -15,11 +15,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/more_spicy/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/dual_priority_queue/DualPriorityQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1634">
+              <caret line="86" column="48" lean-forward="true" selection-start-line="86" selection-start-column="48" selection-end-line="86" selection-end-column="48" />
+              <folding>
+                <element signature="e#1460#1461#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,14 +69,15 @@
         <option value="$PROJECT_DIR$/src/scpc/RollingBall.java" />
         <option value="$PROJECT_DIR$/src/more_spicy/MoreSpicy.java" />
         <option value="$PROJECT_DIR$/src/more_spicy/Heap.java" />
+        <option value="$PROJECT_DIR$/src/dual_priority_queue/DualPriorityQueue.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
+    <option name="x" value="1280" />
     <option name="y" value="23" />
-    <option name="width" value="960" />
-    <option name="height" value="1177" />
+    <option name="width" value="1280" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -98,7 +101,7 @@
               <item name="coding_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="coding_test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="more_spicy" type="462c0819:PsiDirectoryNode" />
+              <item name="dual_priority_queue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -132,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MoreSpicy">
+  <component name="RunManager" selected="Application.DualPriorityQueue">
     <configuration name="CorrectPar" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="correct_parenthesis.CorrectPar" />
       <module name="coding_test" />
@@ -146,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IronStick2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iron_stick.IronStick2" />
+    <configuration name="DualPriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dual_priority_queue.DualPriorityQueue" />
       <module name="coding_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iron_stick.*" />
+          <option name="PATTERN" value="dual_priority_queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DualPriorityQueue" />
         <item itemvalue="Application.MoreSpicy" />
         <item itemvalue="Application.RollingBall" />
         <item itemvalue="Application.upAndDown" />
         <item itemvalue="Application.Printer" />
-        <item itemvalue="Application.IronStick2" />
       </list>
     </recent_temporary>
   </component>
@@ -247,18 +250,18 @@
       <workItem from="1559761658466" duration="3617000" />
       <workItem from="1559821101062" duration="933000" />
       <workItem from="1560066167020" duration="17000" />
-      <workItem from="1561087222472" duration="20396000" />
+      <workItem from="1561087222472" duration="25858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77004000" />
+    <option name="totallyTimeSpent" value="82466000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="23" width="960" height="1177" extended-state="0" />
+    <frame x="1280" y="23" width="1280" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49941385" visible="true" weight="0.291939" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49941385" weight="0.291939" />
       <window_info id="Structure" order="1" sideWeight="0.50058615" side_tool="true" weight="0.291939" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -267,7 +270,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19679849" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16052227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -470,6 +473,16 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dual_priority_queue/DualPriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1634">
+          <caret line="86" column="48" lean-forward="true" selection-start-line="86" selection-start-column="48" selection-end-line="86" selection-end-column="48" />
+          <folding>
+            <element signature="e#1460#1461#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
