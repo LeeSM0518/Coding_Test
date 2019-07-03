@@ -2,6 +2,7 @@ package cycle_remove;
 
 public class CycleRemove {
 
+  public boolean isCycle;
   public int[][] visitEdges;
   public int[] visitNode;
   public int nodeCount;
@@ -19,20 +20,33 @@ public class CycleRemove {
   }
 
   public boolean traversalDFS(int startNodeIndex) {
-    int visitNodeCount = 0;
+    boolean haveCycle = false;
+    isCycle = false;
 
     recursiveTraversalDFS(startNodeIndex);
 
     for (int i = 0; i < nodeCount; i++) {
-      visitNodeCount += visitNode[i];
+      if (visitNode[i] > 1) {
+        haveCycle = true;
+        break;
+      }
+    }
+
+    for (int i = 0; i < nodeCount; i++) {
       visitNode[i] = 0;
     }
 
-    return visitNodeCount <= nodeCount - 1;
+    return haveCycle;
   }
 
   public void recursiveTraversalDFS(int startNodeIndex) {
     visitNode[startNodeIndex]++;
+
+    if (visitNode[startNodeIndex] > 1 || isCycle) {
+      isCycle = true;
+      return;
+    }
+
     for (int i = 0; i < nodeCount; i++) {
       if (i != startNodeIndex) {
         if (visitEdges[startNodeIndex][i] != 0) {
@@ -48,9 +62,7 @@ public class CycleRemove {
     int[][] alteredEdges = new int[nodeCount][nodeCount];
 
     for (int i = 0; i < nodeCount; i++) {
-      for (int j = 0; j < nodeCount; j++) {
-        alteredEdges[i][j] = adjacentEdges[i][j];
-      }
+      System.arraycopy(adjacentEdges[i], 0, alteredEdges[i], 0, adjacentEdges[i].length);
     }
 
     for (int i = 0; i < adjacentEdges.length; i++) {
@@ -61,14 +73,34 @@ public class CycleRemove {
     return alteredEdges;
   }
 
+  public int haveEdge(int[][] edges) {
+    int nodeNumber;
+
+    out:
+    for (nodeNumber = 0; nodeNumber < nodeCount; nodeNumber++) {
+      for (int i = 0; i < nodeCount; i++) {
+        if (edges[nodeNumber][i] == 1 || edges[i][nodeNumber] == 1) {
+          break out;
+        }
+      }
+    }
+
+    return nodeNumber;
+  }
+
   public int solution(int n, int[][] edges) {
     int[][] adjacentEdges = makeAdjacentEdges(n, edges);
     visitNode = new int[n];
     nodeCount = n;
 
     for (int i = 0; i < n; i++) {
+      boolean isCycle = true;
       visitEdges = removeNode(i, adjacentEdges);
-      if (traversalDFS((i + 1) % n)) {
+      while (haveEdge(visitEdges) < nodeCount) {
+        isCycle = traversalDFS(haveEdge(visitEdges));
+        if (isCycle) break;
+      }
+      if (!isCycle) {
         answer += i + 1;
       }
     }
