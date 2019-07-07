@@ -2,7 +2,7 @@ package cycle_remove;
 
 public class CycleRemove {
 
-  public boolean isCycle;
+  public static boolean isCycle;
   public int[][] visitEdges;
   public int[] visitNode;
   public int nodeCount;
@@ -52,6 +52,10 @@ public class CycleRemove {
         if (visitEdges[startNodeIndex][i] != 0) {
           visitEdges[startNodeIndex][i] = 0;
           visitEdges[i][startNodeIndex] = 0;
+          if (visitNode[startNodeIndex] > 1 || isCycle) {
+            isCycle = true;
+            return;
+          }
           recursiveTraversalDFS(i);
         }
       }
