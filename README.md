@@ -17,4 +17,4 @@
 * [프린터](https://github.com/LeeSM0518/Coding_Test/tree/master/src/printer)
 * [더 맵게](https://github.com/LeeSM0518/Coding_Test/tree/master/src/more_spicy)
 * [이중 우선순위 큐](https://github.com/LeeSM0518/Coding_Test/tree/master/src/dual_priority_queue)
-
+* [타겟 넘버](https://github.com/LeeSM0518/Coding_Test/tree/master/src/target_number)
