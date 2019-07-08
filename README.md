@@ -18,3 +18,8 @@
 * [더 맵게](https://github.com/LeeSM0518/Coding_Test/tree/master/src/more_spicy)
 * [이중 우선순위 큐](https://github.com/LeeSM0518/Coding_Test/tree/master/src/dual_priority_queue)
 * [타겟 넘버](https://github.com/LeeSM0518/Coding_Test/tree/master/src/target_number)
+* [시저 암호](https://github.com/LeeSM0518/Coding_Test/tree/master/src/caesar_password)
+
+* [가운데 글자 가져오기](https://github.com/LeeSM0518/Coding_Test/tree/master/src/Import_middle_letters)
+* [문자열 다루기 기본](https://github.com/LeeSM0518/Coding_Test/tree/master/src/string_basic)
+* [소수 찾기](https://github.com/LeeSM0518/Coding_Test/tree/master/src/decimal_number)
