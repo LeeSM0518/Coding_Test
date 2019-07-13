@@ -1,84 +1,34 @@
 package unfinished_player;
 
+import java.util.*;
+
 public class UnfinishedPlayer {
 
-  public Player[] hashTable;
-  public int tableSize;
-
-  class Player {
-    String name;
-    boolean check;
-
-    Player (String name) {
-      this.name = name;
-      check = false;
-    }
-  }
-
-  private int transform(String str) {
-    int sum = 0;
-
-    for (int i = 0; i < str.length(); i++) {
-      sum += str.charAt(i);
-    }
-
-    return sum;
-  }
-
-  private int hashFunction(String str) {
-    return transform(str) % tableSize;
-  }
-
-  public void quadraticAdd(String item) {
-    int hashValue = hashFunction(item);
-    int i = hashValue;
-    int inc = 0;
-
-    while (hashTable[i] != null) {
-      i = (hashValue + inc * inc) % tableSize;
-      inc += 1;
-    }
-
-    hashTable[i] = new Player(item);
-  }
-
-  public boolean quadraticSearch(String item) {
-    int hashValue = hashFunction(item);
-    int i = hashValue;
-    int inc = 0;
-
-    while (hashTable[i] != null) {
-      if (item.equals(hashTable[i].name) && !hashTable[i].check) {
-        hashTable[i].check = true;
-        return true;
-      }
-
-      i = (hashValue + inc * inc) % tableSize;
-      inc += 1;
-
-      if (i == hashValue) {
-        return false;
-      }
-    }
-
-    return false;
-  }
-
   public String solution(String[] participant, String[] completion) {
-    String answer = "";
-    tableSize = 1000019;
-    hashTable = new Player[tableSize];
+    Map<String, Integer> players = new HashMap<>();
 
-    for (String name : completion) {
-      quadraticAdd(name);
+    for (String player : completion) {
+      if (!players.containsKey(player)) {
+        players.put(player, 1);
+      } else {
+        players.put(player, players.get(player) + 1);
+      }
     }
 
-    for (String name : participant) {
-      boolean searchSuccess = quadraticSearch(name);
-      if (!searchSuccess) return name;
+    for (String player : participant) {
+      if (!players.containsKey(player)) {
+        return player;
+      } else {
+        int sum = players.get(player);
+        if (sum > 1) {
+          players.put(player, sum - 1);
+        } else {
+          players.remove(player);
+        }
+      }
     }
 
-    return answer;
+    return null;
   }
 
   public static void main(String[] args) {
@@ -94,5 +44,4 @@ public class UnfinishedPlayer {
 
     System.out.println(unfinishedPlayer.solution(participant, completion));
   }
-
 }
