@@ -1,6 +1,6 @@
 package best_album;
 
-import java.util.Comparator;
+import java.util.*;
 
 public class BestAlbum2 {
 
@@ -8,9 +8,9 @@ public class BestAlbum2 {
     String name;
     int sum;
 
-    Genre(String name) {
+    Genre(String name, int play) {
       this.name = name;
-      sum = 0;
+      sum = play;
     }
 
     @Override
@@ -38,6 +38,22 @@ public class BestAlbum2 {
 
   public int[] solution(String[] genres, int[] plays) {
     int[] answer = {};
+    TreeMap<Genre, TreeSet<Integer>> genreMap = new TreeMap<>();
+
+    for (int i = 0; i < genres.length; i++) {
+      Genre genre = new Genre(genres[i], plays[i]);
+
+
+      System.out.println(genreMap.containsKey(genre));
+      if (!genreMap.containsKey(genre)) {
+        genre.sum += plays[i];
+        genreMap.put(genre, new TreeSet<>());
+        genreMap.get(genre).add(plays[i]);
+      } else {
+        Set<Map.Entry<Genre, TreeSet<Integer>>> containGenre = genreMap.entrySet();
+
+      }
+    }
 
     return answer;
   }
