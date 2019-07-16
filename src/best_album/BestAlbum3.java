@@ -58,10 +58,20 @@ public class BestAlbum3 {
         genreSet.add(genre);
       } else {
         Genre beforeGenre = genreSet.ceiling(genre);
+        System.out.println(genreSet.remove(beforeGenre));
         beforeGenre.sum += genre.sum;
         beforeGenre.playSet.add(new Play(genre.sum, i));
         genreSet.add(beforeGenre);
       }
+
+      genreSet.forEach(genre1 -> {
+        System.out.println(genre1.name + ", " + genre1.sum);
+        genre1.playSet.forEach(play -> {
+          System.out.print(play.times + ", ");
+        });
+        System.out.println();
+      });
+      System.out.println();
     }
 
     genreSet.forEach(genre -> {
@@ -73,6 +83,10 @@ public class BestAlbum3 {
 
     int[] answer = new int[albumList.size()];
 
+    albumList.forEach(x -> {
+      System.out.println(x);
+    });
+
     for (int i = 0; i < answer.length; i++) {
       answer[i] = albumList.get(i);
     }
@@ -83,14 +97,21 @@ public class BestAlbum3 {
   public static void main(String[] args) {
     String[] genres = {
         "classic",
+        "d",
+        "classic",
+        "classic",
         "pop",
         "classic",
         "classic",
         "pop",
+        "c",
+        "c",
+        "c",
+        "d"
     };
 
     int[] plays = {
-        500, 600, 150, 800, 2500
+        500, 200, 500, 500, 600, 1150, 800, 2500, 100, 200, 200, 4000
     };
 
     BestAlbum3 bestAlbum3 = new BestAlbum3();
