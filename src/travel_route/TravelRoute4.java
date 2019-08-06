@@ -53,11 +53,24 @@ public class TravelRoute4 {
       placeSet.add(ticket[1]);
     }
 
+    placeSet.forEach(System.out::println);
+    System.out.println();
+
     for (int i = 0; !placeSet.isEmpty(); i++) {
       String place = placeSet.pollFirst();
       intPlaceMap.put(i, place);
       stringPlaceMap.put(place, i);
     }
+
+    intPlaceMap.forEach((a, b) -> {
+      System.out.println(a + ", " + b);
+    });
+    System.out.println();
+
+    stringPlaceMap.forEach((a, b) -> {
+      System.out.println(a + ", " + b);
+    });
+    System.out.println();
 
     Graph graph = new Graph(intPlaceMap.size());
 
