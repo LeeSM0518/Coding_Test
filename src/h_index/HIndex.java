@@ -4,31 +4,35 @@ import java.util.TreeSet;
 
 public class HIndex {
 
-  class Quotation implements Comparable<Quotation>{
+  static class Quotation implements Comparable<Quotation>{
     int times;
 
     public Quotation(int times) {
       this.times = times;
     }
 
-
     @Override
     public int compareTo(Quotation o) {
-      return Integer.compare(times, o.times);
+      if (this.times == o.times) return 1;
+      else return Integer.compare(o.times, times);
     }
   }
 
   public static int solution(int[] citations) {
-    int answer = 0;
-    TreeSet<Integer> citationSet = new TreeSet<>();
+    int citationNumber = 1;
+    TreeSet<Quotation> citationSet = new TreeSet<>();
 
     for (int citation : citations) {
-      citationSet.add(citation);
+      citationSet.add(new Quotation(citation));
     }
 
-    citationSet.forEach(System.out::println);
+    for (Quotation citation : citationSet) {
+      if (citationNumber == citation.times) return citationNumber;
+      else if (citationNumber > citation.times) return --citationNumber;
+      citationNumber++;
+    }
 
-    return answer;
+    return --citationNumber;
   }
 
   public static void main(String[] args) {
