@@ -1,30 +1,36 @@
 package carpet;
 
+import java.util.*;
+
 public class Carpet {
 
   public static int[] solution(int brown, int red) {
     int[] answer = new int[2];
-    int i , j;
+    int row, col;
+    Map<Integer, Integer> redMatrixMap = new HashMap<>();
 
-    for (i = 1, j = 1; i * j >= brown + red; i += 1, j += 1);
-
-    while (i * j != brown + red) {
-      j--;
-
-      if (j == 0) {
-        i++;
-        j = i;
+    for (row = 1; row <= red; row++) {
+      for (col = 1; col <= red; col++) {
+        if (row * col == red) {
+          redMatrixMap.put(row, col);
+        }
+        else if (row * col > red) break;
       }
     }
 
-    answer[0] = i;
-    answer[1] = j;
+    Map.Entry redMatrix = redMatrixMap.entrySet().stream()
+        .filter((entry -> brown == (entry.getKey() + entry.getValue()) * 2 + 4))
+        .findFirst()
+        .get();
+
+    answer[0] = (Integer)redMatrix.getValue() + 2;
+    answer[1] = (Integer)redMatrix.getKey() + 2;
 
     return answer;
   }
 
   public static void main(String[] args) {
-    int brown = 240;
+    int brown = 24;
     int red = 24;
 
     int[] answer = solution(brown, red);
