@@ -31,3 +31,4 @@
 
 25. [체육복](https://github.com/LeeSM0518/Coding_Test/tree/master/src/gym_suit)
 26. [2016년](https://github.com/LeeSM0518/Coding_Test/tree/master/src/years)
+27. [같은 숫자는 싫어](https://github.com/LeeSM0518/Coding_Test/tree/master/src/same_number)
