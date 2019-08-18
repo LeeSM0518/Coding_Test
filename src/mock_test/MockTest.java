@@ -1,23 +1,20 @@
 package mock_test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class MockTest {
-  // 1번 : 12345
-  // 2번 : 21232425
-  // 3번 : 3311224455
 
   class Pattern {
 
     int[] patterns;
     int answerCount;
     int currentIndex;
+    int number;
 
-    public Pattern(int[] patterns) {
+    public Pattern(int[] patterns, int number) {
       this.patterns = patterns;
+      this.number = number;
       answerCount = 0;
       currentIndex = 0;
     }
@@ -26,31 +23,45 @@ public class MockTest {
       if (patterns[currentIndex] == answer) answerCount++;
       currentIndex = (currentIndex + 1) % patterns.length;
     }
-
   }
 
   public int[] solution(int[] answers) {
-    Pattern firstPattern = new Pattern(new int[]{1, 2, 3, 4, 5});
-    Pattern secondPattern = new Pattern(new int[]{2, 1, 2, 3, 2, 4, 2, 5});
-    Pattern thirdPattern = new Pattern(new int[]{3, 3, 1, 1, 2, 2, 4, 4, 5, 5});
+    Pattern firstPattern = new Pattern(new int[]{1, 2, 3, 4, 5}, 1);
+    Pattern secondPattern = new Pattern(new int[]{2, 1, 2, 3, 2, 4, 2, 5}, 2);
+    Pattern thirdPattern = new Pattern(new int[]{3, 3, 1, 1, 2, 2, 4, 4, 5, 5}, 3);
+
+    List<Pattern> patternList = new ArrayList<>(Arrays.asList(firstPattern, secondPattern, thirdPattern));
 
     for (int problemAnswer : answers) {
-      firstPattern.answerCheck(problemAnswer);
-      secondPattern.answerCheck(problemAnswer);
-      thirdPattern.answerCheck(problemAnswer);
+      patternList.forEach(pattern -> pattern.answerCheck(problemAnswer));
     }
 
-    System.out.println(firstPattern.answerCount);
-    System.out.println(secondPattern.answerCount);
-    System.out.println(thirdPattern.answerCount);
+    List<Pattern> sortedList = patternList.stream()
+        .sorted((a, b) -> Integer.compare(b.answerCount, a.answerCount))
+        .collect(Collectors.toList());
 
-    return null;
+    List<Pattern> sortedList2 = sortedList.stream()
+        .filter(pattern -> pattern.answerCount == sortedList.get(0).answerCount)
+        .sorted(Comparator.comparingInt(a -> a.number))
+        .collect(Collectors.toList());
+
+    int[] answer = new int[sortedList2.size()];
+
+    for (int i = 0; i < answer.length; i++) {
+      answer[i] = sortedList2.get(i).number;
+    }
+
+    return answer;
   }
 
   public static void main(String[] args) {
-    int[] answer = {1, 2, 3, 4, 5};
+    int[] answers = {1, 2, 3, 4, 5};
     MockTest mockTest = new MockTest();
-    System.out.println(mockTest.solution(answer));
+    int[] answer = mockTest.solution(answers);
+
+    for (int a : answer) {
+      System.out.println(a);
+    }
   }
 
 }
