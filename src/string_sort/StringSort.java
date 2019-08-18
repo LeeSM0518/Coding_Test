@@ -9,7 +9,7 @@ public class StringSort {
     return Arrays.stream(strings)
         .sorted()
         .sorted(Comparator.comparing(str -> str.charAt(n)))
-        .toArray(String[]::new);ㄴ
+        .toArray(String[]::new);
   }
 
   public static void main(String[] args) {
