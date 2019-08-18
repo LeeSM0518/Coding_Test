@@ -28,3 +28,5 @@
 22. [H-index](https://github.com/LeeSM0518/Coding_Test/tree/master/src/h_index)
 23. [카펫](https://github.com/LeeSM0518/Coding_Test/tree/master/src/carpet)
 24. [모의고사](https://github.com/LeeSM0518/Coding_Test/tree/master/src/mock_test)
+
+25. [체육복](https://github.com/LeeSM0518/Coding_Test/tree/master/src/gym_suit)
