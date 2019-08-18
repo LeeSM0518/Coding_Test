@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0140370c-ceb1-40d3-94f6-82b43fd05bad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding_test/carpet/Carpet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coding_test/carpet/Carpet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding_test/carpet/Carpet2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding_test/mock_test/MockTest$Pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coding_test/mock_test/MockTest$Pattern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding_test/mock_test/MockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coding_test/mock_test/MockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mock_test/MockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mock_test/MockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding_test/same_number/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coding_test/same_number/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding_test/same_number/SameNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coding_test/same_number/SameNumber.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,19 +22,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/carpet/Carpet.java">
+        <entry file="file://$PROJECT_DIR$/src/same_number/SameNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="380">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/number_array/NumberArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/integer_sum/IntegerSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/string_sort/StringSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/mock_test/MockTest.java">
+        <entry file="file://$PROJECT_DIR$/src/p_or_y_in_string/PorYInString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="209">
+              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,19 +73,53 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="395" column="10" selection-start-line="395" selection-start-column="10" selection-end-line="395" selection-end-column="10" />
+        <entry file="file://$PROJECT_DIR$/src/string_sort/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="934" column="16" selection-start-line="934" selection-start-column="16" selection-end-line="934" selection-end-column="16" />
+            <state relative-caret-position="300">
+              <caret line="5002" column="32" selection-start-line="5002" selection-start-column="32" selection-end-line="5002" selection-end-column="32" />
+              <folding>
+                <element signature="e#224141#224142#0" expanded="true" />
+                <element signature="e#224194#224195#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/integer_sum/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/number_array/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/stream/IntStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="314" column="10" selection-start-line="314" selection-start-column="10" selection-end-line="314" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -100,13 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/iron_stick/IronPipe.java" />
-        <option value="$PROJECT_DIR$/src/iron_stick/IronStick.java" />
-        <option value="$PROJECT_DIR$/src/tower/Tower.java" />
-        <option value="$PROJECT_DIR$/src/representation_of_numbers/RepresentNumber.java" />
-        <option value="$PROJECT_DIR$/src/skill_tree/SkillTree.java" />
-        <option value="$PROJECT_DIR$/src/number_of_124_country/NumberOfCountry.java" />
-        <option value="$PROJECT_DIR$/src/truck/Truck.java" />
         <option value="$PROJECT_DIR$/src/function_development/FunctionDevelopment.java" />
         <option value="$PROJECT_DIR$/src/iron_stick/IronStick2.java" />
         <option value="$PROJECT_DIR$/src/printer/Printer.java" />
@@ -151,6 +205,13 @@
         <option value="$PROJECT_DIR$/src/carpet/Carpet2.java" />
         <option value="$PROJECT_DIR$/src/carpet/Carpet.java" />
         <option value="$PROJECT_DIR$/src/mock_test/MockTest.java" />
+        <option value="$PROJECT_DIR$/src/gym_suit/GymSuit.java" />
+        <option value="$PROJECT_DIR$/src/years/Years.java" />
+        <option value="$PROJECT_DIR$/src/same_number/SameNumber.java" />
+        <option value="$PROJECT_DIR$/src/number_array/NumberArray.java" />
+        <option value="$PROJECT_DIR$/src/integer_sum/IntegerSum.java" />
+        <option value="$PROJECT_DIR$/src/string_sort/StringSort.java" />
+        <option value="$PROJECT_DIR$/src/p_or_y_in_string/PorYInString.java" />
       </list>
     </option>
   </component>
@@ -179,6 +240,12 @@
               <item name="coding_test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="coding_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coding_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="p_or_y_in_string" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -196,8 +263,8 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.152513" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="debugger.dataViews" />
   </component>
   <component name="RunDashboard">
@@ -212,33 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MockTest">
-    <configuration name="BestAlbum4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="best_album.BestAlbum4" />
-      <module name="coding_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="best_album.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Carpet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="carpet.Carpet" />
-      <module name="coding_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="carpet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PorYInString">
     <configuration name="CorrectPar" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="correct_parenthesis.CorrectPar" />
       <module name="coding_test" />
@@ -252,12 +293,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h_index.HIndex" />
+    <configuration name="NumberArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number_array.NumberArray" />
       <module name="coding_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="h_index.*" />
+          <option name="PATTERN" value="number_array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,12 +306,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mock_test.MockTest" />
+    <configuration name="PorYInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p_or_y_in_string.PorYInString" />
       <module name="coding_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mock_test.*" />
+          <option name="PATTERN" value="p_or_y_in_string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,12 +319,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unfinished_player.Test" />
+    <configuration name="SameNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="same_number.SameNumber" />
       <module name="coding_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unfinished_player.*" />
+          <option name="PATTERN" value="same_number.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string_sort.StringSort" />
+      <module name="coding_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string_sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Years" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="years.Years" />
+      <module name="coding_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="years.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -293,11 +360,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MockTest" />
-        <item itemvalue="Application.Carpet2" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.HIndex" />
-        <item itemvalue="Application.BestAlbum4" />
+        <item itemvalue="Application.PorYInString" />
+        <item itemvalue="Application.StringSort" />
+        <item itemvalue="Application.NumberArray" />
+        <item itemvalue="Application.SameNumber" />
+        <item itemvalue="Application.Years" />
       </list>
     </recent_temporary>
   </component>
@@ -353,12 +420,12 @@
       <workItem from="1565090746745" duration="4175000" />
       <workItem from="1565134862632" duration="156000" />
       <workItem from="1565338075659" duration="3855000" />
-      <workItem from="1565946075122" duration="8511000" />
+      <workItem from="1565946075122" duration="26856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246249000" />
+    <option name="totallyTimeSpent" value="264594000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,7 +440,7 @@
     <frame x="960" y="23" width="960" height="1177" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49774435" weight="0.25729167" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49774435" weight="0.253125" />
       <window_info id="Structure" order="1" sideWeight="0.5022556" side_tool="true" weight="0.20524018" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -495,164 +562,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/iron_stick/IronStick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iron_stick/IronStick2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iron_stick/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/truck/Truck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="1877" column="67" lean-forward="true" selection-start-line="1877" selection-start-column="67" selection-end-line="1877" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentSkipListMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="2405" column="43" lean-forward="true" selection-start-line="2405" selection-start-column="43" selection-end-line="2405" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/NavigableMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="180" column="6" selection-start-line="180" selection-start-column="6" selection-end-line="180" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/travel_route/TravelRoute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1039">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/travel_route/TravelRoute2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/best_album/BestAlbum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="114" column="25" lean-forward="true" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/best_album/BestAlbum2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="46" column="54" lean-forward="true" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/TreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="233" column="24" selection-start-line="233" selection-start-column="24" selection-end-line="233" selection-end-column="24" />
-          <folding>
-            <element signature="e#9708#9709#0" expanded="true" />
-            <element signature="e#9747#9748#0" expanded="true" />
-            <element signature="e#10661#10662#0" expanded="true" />
-            <element signature="e#10707#10708#0" expanded="true" />
-            <element signature="e#11670#11671#0" expanded="true" />
-            <element signature="e#11713#11714#0" expanded="true" />
-            <element signature="e#17224#17225#0" expanded="true" />
-            <element signature="e#17262#17263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/travel_route/TravelRoute3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="77" column="3" lean-forward="true" selection-start-line="40" selection-start-column="2" selection-end-line="77" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="673" column="31" selection-start-line="673" selection-start-column="31" selection-end-line="673" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/travel_route/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/travel_route/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="722">
-            <caret line="38" column="92" lean-forward="true" selection-start-line="38" selection-start-column="92" selection-end-line="38" selection-end-column="92" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="817">
-            <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dual_priority_queue/Heap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -853,17 +762,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+    <entry file="file://$PROJECT_DIR$/src/years.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="934" column="16" selection-start-line="934" selection-start-column="16" selection-end-line="934" selection-end-column="16" />
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/Map.java">
+    <entry file="file://$PROJECT_DIR$/src/mock_test/MockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="395" column="10" selection-start-line="395" selection-start-column="10" selection-end-line="395" selection-end-column="10" />
+        <state relative-caret-position="342">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -874,10 +786,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mock_test/MockTest.java">
+    <entry file="file://$PROJECT_DIR$/src/gym_suit/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gym_suit/GymSuit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/years/Years.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/years/READEME.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="361">
+            <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="395" column="10" selection-start-line="395" selection-start-column="10" selection-end-line="395" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="934" column="16" selection-start-line="934" selection-start-column="16" selection-end-line="934" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/same_number/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/function/ToIntFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/same_number/SameNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/stream/IntStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="314" column="10" selection-start-line="314" selection-start-column="10" selection-end-line="314" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/number_array/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/number_array/NumberArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integer_sum/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integer_sum/IntegerSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="5002" column="32" selection-start-line="5002" selection-start-column="32" selection-end-line="5002" selection-end-column="32" />
+          <folding>
+            <element signature="e#224141#224142#0" expanded="true" />
+            <element signature="e#224194#224195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string_sort/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string_sort/StringSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p_or_y_in_string/PorYInString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
