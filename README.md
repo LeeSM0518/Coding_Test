@@ -37,3 +37,4 @@
 29. [두 정수 사이의 합](https://github.com/LeeSM0518/Coding_Test/tree/master/src/Integer_sum)
 
 30. [문자열 내 마음대로 정렬하기](https://github.com/LeeSM0518/Coding_Test/tree/master/src/string_sort)
+31. [문자열 내 p와 y의 개수](https://github.com/LeeSM0518/Coding_Test/tree/master/src/p_or_y_in_string)
