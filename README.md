@@ -34,7 +34,7 @@
 27. [같은 숫자는 싫어](https://github.com/LeeSM0518/Coding_Test/tree/master/src/same_number)
 28. [나누어 떨어지는 숫자 배열](https://github.com/LeeSM0518/Coding_Test/tree/master/src/number_array)
 
-29. [두 정수 사이의 합](https://github.com/LeeSM0518/Coding_Test/tree/master/src/Integer_sum)
+29. [두 정수 사이의 합](https://github.com/LeeSM0518/Coding_Test/tree/master/src/integer_sum)
 
 30. [문자열 내 마음대로 정렬하기](https://github.com/LeeSM0518/Coding_Test/tree/master/src/string_sort)
 31. [문자열 내 p와 y의 개수](https://github.com/LeeSM0518/Coding_Test/tree/master/src/p_or_y_in_string)
