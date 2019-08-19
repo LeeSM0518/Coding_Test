@@ -42,3 +42,4 @@
 32. [문자열 내림차순으로 배치하기](https://github.com/LeeSM0518/Coding_Test/tree/master/src/descending_sort)
 33. [이상한 문자 만들기](https://github.com/LeeSM0518/Coding_Test/tree/master/src/create_character)
 34. [자릿수 더하기](https://github.com/LeeSM0518/Coding_Test/tree/master/src/digits_plus)
+35. [자연수 뒤집어 배열로 만들기](https://github.com/LeeSM0518/Coding_Test/tree/master/src/create_array)
