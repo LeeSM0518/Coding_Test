@@ -28,20 +28,16 @@
 22. [H-index](https://github.com/LeeSM0518/Coding_Test/tree/master/src/h_index)
 23. [카펫](https://github.com/LeeSM0518/Coding_Test/tree/master/src/carpet)
 24. [모의고사](https://github.com/LeeSM0518/Coding_Test/tree/master/src/mock_test)
-
 25. [체육복](https://github.com/LeeSM0518/Coding_Test/tree/master/src/gym_suit)
 26. [2016년](https://github.com/LeeSM0518/Coding_Test/tree/master/src/years)
 27. [같은 숫자는 싫어](https://github.com/LeeSM0518/Coding_Test/tree/master/src/same_number)
 28. [나누어 떨어지는 숫자 배열](https://github.com/LeeSM0518/Coding_Test/tree/master/src/number_array)
-
 29. [두 정수 사이의 합](https://github.com/LeeSM0518/Coding_Test/tree/master/src/integer_sum)
-
 30. [문자열 내 마음대로 정렬하기](https://github.com/LeeSM0518/Coding_Test/tree/master/src/string_sort)
 31. [문자열 내 p와 y의 개수](https://github.com/LeeSM0518/Coding_Test/tree/master/src/p_or_y_in_string)
-
 32. [문자열 내림차순으로 배치하기](https://github.com/LeeSM0518/Coding_Test/tree/master/src/descending_sort)
 33. [이상한 문자 만들기](https://github.com/LeeSM0518/Coding_Test/tree/master/src/create_character)
 34. [자릿수 더하기](https://github.com/LeeSM0518/Coding_Test/tree/master/src/digits_plus)
 35. [자연수 뒤집어 배열로 만들기](https://github.com/LeeSM0518/Coding_Test/tree/master/src/create_array)
-
 36. [정수 내림차순으로 배치하기](https://github.com/LeeSM0518/Coding_Test/tree/master/src/integer_descending_sort)
+37. [제일 작은 수 제거하기](https://github.com/LeeSM0518/Coding_Test/tree/master/src/remove_smallest_number)
