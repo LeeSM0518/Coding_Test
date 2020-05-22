@@ -1,30 +1,35 @@
 package number_of_124_country;
 
+import java.util.LinkedList;
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class NumberOfCountry {
 
     public static String solution(int n) {
-        StringBuilder answer = new StringBuilder();
-        int result = n;
+        List<Integer> answerList = new LinkedList<>();
+        int answer = n;
 
-
-        while (result == 0) {
-            int mod = result / 3;
-
-            if (mod == 0) {
-                answer.append(4);
-
-            } else {
-                answer.append(mod);
-            }
+        while (answer != 0) {
+            answerList.add(0, answer % 3);
+            answer /= 3;
         }
 
-        answer.reverse();
+        System.out.println(answerList);
 
-        return answer.toString();
+        return answerList.stream()
+            .map(i -> {
+                if (i == 0) return 4;
+                else return i;
+            })
+            .map(String::valueOf)
+            .collect(Collectors.joining());
     }
 
 
     public static void main(String[] args) {
-        System.out.println(solution(4));
+        for (int i = 1; i <= 13; i++) {
+            System.out.println(i + ": " + solution(i));
+        }
     }
 }

@@ -1,6 +1,8 @@
 package number_array;
 
 import java.util.Arrays;
+import java.util.Optional;
+import java.util.stream.Stream;
 
 public class NumberArray {
 

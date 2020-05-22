@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="0140370c-ceb1-40d3-94f6-82b43fd05bad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding_test/META-INF/coding_test.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding_test/create_array/CreateArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coding_test/create_array/CreateArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding_test/kth_number/KthNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coding_test/kth_number/KthNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding_test/number_array/NumberArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coding_test/number_array/NumberArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding_test/number_of_124_country/NumberOfCountry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coding_test/number_of_124_country/NumberOfCountry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/number_array/NumberArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number_array/NumberArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/number_of_124_country/NumberOfCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number_of_124_country/NumberOfCountry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/remove_smallest_number/RemoveSmallestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/remove_smallest_number/RemoveSmallestNumber.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +85,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="debugger.dataViews" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -93,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IntegerDescendingSort">
+  <component name="RunManager" selected="Application.NumberArray">
     <configuration name="CorrectPar" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="correct_parenthesis.CorrectPar" />
       <module name="coding_test" />
@@ -107,60 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="create_array.CreateArray" />
-      <module name="coding_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="create_array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="create_character.CreateCharacter" />
-      <module name="coding_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="create_character.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="create_character.CreateCharacter" />
-      <module name="coding_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="create_character.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DescendingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="descending_sort.DescendingSort" />
-      <module name="coding_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="descending_sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DigitsPlus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="digits_plus.DigitsPlus" />
+    <configuration name="DigitsPlus2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="digits_plus.DigitsPlus2" />
       <module name="coding_test" />
       <extension name="coverage">
         <pattern>
@@ -172,12 +129,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerDescendingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="integer_descending_sort.IntegerDescendingSort" />
+    <configuration name="Joystick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joystick.Joystick" />
       <module name="coding_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="integer_descending_sort.*" />
+          <option name="PATTERN" value="joystick.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number_array.NumberArray" />
+      <module name="coding_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="number_array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberOfCountry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number_of_124_country.NumberOfCountry" />
+      <module name="coding_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="number_of_124_country.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockPrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stock_price.StockPrice" />
+      <module name="coding_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stock_price.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IntegerDescendingSort" />
-        <item itemvalue="Application.CreateArray" />
-        <item itemvalue="Application.DigitsPlus" />
-        <item itemvalue="Application.CreateCharacter" />
-        <item itemvalue="Application.DescendingSort" />
+        <item itemvalue="Application.NumberArray" />
+        <item itemvalue="Application.DigitsPlus2" />
+        <item itemvalue="Application.NumberOfCountry" />
+        <item itemvalue="Application.Joystick" />
+        <item itemvalue="Application.StockPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +244,26 @@
       <workItem from="1565134862632" duration="156000" />
       <workItem from="1565338075659" duration="3855000" />
       <workItem from="1565946075122" duration="43743000" />
-      <workItem from="1566526955926" duration="578000" />
+      <workItem from="1566526955926" duration="2457000" />
+      <workItem from="1566741684446" duration="100000" />
+      <workItem from="1567427445897" duration="1025000" />
+      <workItem from="1567429332299" duration="380000" />
+      <workItem from="1567829358968" duration="2043000" />
+      <workItem from="1567832218740" duration="7000" />
+      <workItem from="1567832356557" duration="20801000" />
+      <workItem from="1568074307004" duration="14823000" />
+      <workItem from="1568706083375" duration="3000" />
+      <workItem from="1568954786555" duration="1050000" />
+      <workItem from="1568957093491" duration="3525000" />
+      <workItem from="1569120114406" duration="666000" />
+      <workItem from="1569283685661" duration="1303000" />
+      <workItem from="1569286154004" duration="3032000" />
+      <workItem from="1569558876703" duration="227000" />
+      <workItem from="1569925126065" duration="336000" />
+      <workItem from="1574269705904" duration="336000" />
+      <workItem from="1574595890439" duration="44000" />
+      <workItem from="1574940673166" duration="1886000" />
+      <workItem from="1575285050413" duration="28000" />
     </task>
     <servers />
   </component>
@@ -304,80 +319,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>coding_test</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
